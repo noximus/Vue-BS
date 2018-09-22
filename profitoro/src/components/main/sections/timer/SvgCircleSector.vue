@@ -12,6 +12,14 @@
   </div>
 </template>
 <script>
+function calcEndPoint (angle) {
+  let x, y
+  x = 100 - 100 * Math.sin(Math.PI * angle / 180)
+  y = 100 - 100 * Math.cos(Math.PI * angle / 180)
+  return {
+    x, y
+  }
+}
 function calcPath (angle) {
   let d
   let {x, y} = calcEndPoint(angle)
@@ -21,14 +29,6 @@ function calcPath (angle) {
     d = `M100,100 L100,0 A100,100 0 0,0 100, 200 A100,100 0 0,0 ${x}, ${y} z`
   }
   return d
-}
-function calcEndPoint (angle) {
-  let x, y
-  x = 100 - 100 * Math.sin(Math.PI * angle / 180)
-  y = 100 - 100 * Math.sin(Math.Pi * angle / 180)
-  return {
-    x, y
-  }
 }
 export default {
   props: ['angle', 'text'],

@@ -1,7 +1,7 @@
 //  PromodoroTimer.vue
 <template>
   <div>PromodoroTimer
-    <svg-circle-sector></svg-circle-sector>
+    <svg-circle-sector :angle="60" :text="'hello'"></svg-circle-sector>
   </div>
 </template>
 <script>
