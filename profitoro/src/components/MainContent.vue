@@ -1,24 +1,22 @@
-//MainContent.vue
+//  MainContent.vue
  <template>
   <div>
     <header-component></header-component>
     <content-component>
       <div></div>
-      
     </content-component>
     <footer-component></footer-component>
   </div>
 </template>
 <script>
-  import {HeaderComponent, ContentComponent, FooterComponent} from './main'
-  export default {
-    components: {
-      HeaderComponent,
-      ContentComponent,
-      FooterComponent
-    }
+import {HeaderComponent, ContentComponent, FooterComponent} from './main'
+export default {
+  components: {
+    HeaderComponent,
+    ContentComponent,
+    FooterComponent
   }
+}
 </script>
 <style>
-  
 </style>

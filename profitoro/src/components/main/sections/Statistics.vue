@@ -1,12 +1,11 @@
-//Statistics.vue
- <template>
+//  Statistics.vue
+<template>
   <div>Statistics</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 <style>
-  
 </style>

@@ -1,4 +1,4 @@
-//ContentComponents.vue
+//  ContentComponents.vue
 <template>
 <div>
   <promodoro-timer></promodoro-timer>
@@ -8,16 +8,15 @@
 </div>
 </template>
 <script>
-  import {PromodoroTimer, Settings, Statistics, Workouts} from './sections'
-  export default {
-    components: {
-      PromodoroTimer,
-      Settings,
-      Statistics,
-      Workouts
-    }
+import {PromodoroTimer, Settings, Statistics, Workouts} from './sections'
+export default {
+  components: {
+    PromodoroTimer,
+    Settings,
+    Statistics,
+    Workouts
   }
+}
 </script>
 <style>
-  
 </style>

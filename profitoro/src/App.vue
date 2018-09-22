@@ -6,15 +6,15 @@
 </template>
 
 <script>
-  import LandingPage from './components/LandingPage'
-  import MainContent from './components/MainContent'
-  export default {
-    name: 'App',
-    components: {
-      LandingPage,
-      MainContent
-    }
+import LandingPage from './components/LandingPage'
+import MainContent from './components/MainContent'
+export default {
+  name: 'App',
+  components: {
+    LandingPage,
+    MainContent
   }
+}
 </script>
 
 <style>

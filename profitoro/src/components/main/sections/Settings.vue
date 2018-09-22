@@ -1,12 +1,11 @@
-//Settings.vue
- <template>
+//  Settings.vue
+<template>
   <div>Settings</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 <style>
-  
 </style>

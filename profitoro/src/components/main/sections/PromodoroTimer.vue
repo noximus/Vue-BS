@@ -1,12 +1,10 @@
-//PromodoroTimer.vue
- <template>
+//  PromodoroTimer.vue
+<template>
   <div>PromodoroTimer</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+}
 </script>
 <style>
-  
 </style>

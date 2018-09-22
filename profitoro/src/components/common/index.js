@@ -1,2 +1,2 @@
-// common/index.js
+//  common/index.js
 export {default as Logo} from './Logo'

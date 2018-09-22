@@ -1,12 +1,11 @@
-//Authentication.vue
- <template>
+//  Authentication.vue
+<template>
   <div>Authentication</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 <style>
-  
 </style>

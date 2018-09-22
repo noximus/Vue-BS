@@ -1,12 +1,11 @@
-//HeaderComponent.vue
- <template>
+//  HeaderComponent.vue
+<template>
   <div>HeaderComponent</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 <style>
-  
 </style>

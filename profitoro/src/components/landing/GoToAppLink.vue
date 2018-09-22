@@ -1,12 +1,11 @@
-//GoToAppLink.vue
- <template>
+//  GoToAppLink.vue
+<template>
   <div>GoToAppLink</div>
 </template>
 <script>
-  export default {
-    
-  }
+export default {
+
+}
 </script>
 <style>
-  
 </style>
