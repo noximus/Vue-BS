@@ -1,12 +1,23 @@
 //ContentComponents.vue
- <template>
-  <div>ContentComponents</div>
+<template>
+<div>
+  <promodoro-timer></promodoro-timer>
+  <workouts></workouts>
+  <settings></settings>
+  <statistics></statistics>
+</div>
 </template>
 <script>
+  import {PromodoroTimer, Settings, Statistics, Workouts} from './sections'
   export default {
-    
+    components: {
+      PromodoroTimer,
+      Settings,
+      Statistics,
+      Workouts
+    }
   }
 </script>
-<style scoped lang="sass">
+<style>
   
 </style>

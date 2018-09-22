@@ -7,6 +7,6 @@
     
   }
 </script>
-<style scoped lang="sass">
+<style>
   
 </style>

@@ -1,14 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <h1>Welcome to Protitorio</h1>
+    <landing-page></landing-page>
+    <main-content></main-content>
+<!--    <router-view/>-->
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import LandingPage from './components/LandingPage'
+  import MainContent from './components/MainContent'
+  export default {
+    name: 'App',
+    components: {
+      LandingPage,
+      MainContent
+    }
+  }
 </script>
 
 <style>

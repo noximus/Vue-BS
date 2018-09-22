@@ -1,12 +1,24 @@
 //MainContent.vue
  <template>
-  <div>Main Content</div>
+  <div>
+    <header-component></header-component>
+    <content-component>
+      <div></div>
+      
+    </content-component>
+    <footer-component></footer-component>
+  </div>
 </template>
 <script>
+  import {HeaderComponent, ContentComponent, FooterComponent} from './main'
   export default {
-    
+    components: {
+      HeaderComponent,
+      ContentComponent,
+      FooterComponent
+    }
   }
 </script>
-<style scoped lang="sass">
+<style>
   
 </style>
