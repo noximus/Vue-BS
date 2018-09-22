@@ -40,4 +40,25 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+  $big-circle-color: green;
+  $small-circle-color : purple;
+  $segment-color: darkgray;
+  $text-color: black;
+
+  .bigCircle {
+    fill: $big-circle-color;
+  }
+  .smallCircle {
+    fill: $small-circle-color;
+  }
+  .segment {
+    fill: $segment-color;
+    opacity: 0.6;
+  }
+  .text {
+    font-size: 1em;
+    stroke-width: 0;
+    opacity: .9;
+    fill: $text-color;
+  }
 </style>
