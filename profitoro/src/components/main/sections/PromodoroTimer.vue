@@ -1,9 +1,15 @@
 //  PromodoroTimer.vue
 <template>
-  <div>PromodoroTimer</div>
+  <div>PromodoroTimer
+    <svg-circle-sector></svg-circle-sector>
+  </div>
 </template>
 <script>
+import {SvgCircleSector} from './timer'
 export default {
+  components: {
+    SvgCircleSector
+  }
 }
 </script>
 <style>
