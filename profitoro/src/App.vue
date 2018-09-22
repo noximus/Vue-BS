@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <h1>Welcome to Protitorio</h1>
-    <landing-page></landing-page>
-    <main-content></main-content>
-<!--    <router-view/>-->
+    <router-view/>
   </div>
 </template>
 
